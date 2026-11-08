@@ -1,0 +1,5 @@
+client,inbound,answered,reply_rate_pct,median_response_min,mean_response_min,breaches,unanswered
+Acme Logistics,4,3,75.0,75.0,143.3,1,1
+Northwind Retail,4,4,100.0,30.0,53.8,0,0
+Bluepeak Media,3,3,100.0,35.0,35.0,0,0
+Harbor Foods,3,2,66.7,537.5,537.5,1,1

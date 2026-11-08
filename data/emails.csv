@@ -1,0 +1,29 @@
+message_id,thread_id,direction,sender,client,subject,sent_at,in_reply_to
+m001,T1,inbound,client@northwind.example,Northwind Retail,Invoice discrepancy on October statement,2026-11-02 09:12,
+m002,T1,outbound,Bassam Zafar,Northwind Retail,Re: Invoice discrepancy on October statement,2026-11-02 09:47,m001
+m003,T1,outbound,Bassam Zafar,Northwind Retail,Re: Invoice discrepancy on October statement,2026-11-02 10:30,m002
+m004,T2,inbound,ops@acmelogistics.example,Acme Logistics,Delivery window change for Friday,2026-11-02 10:05,
+m005,T2,outbound,Lina Ahmed,Acme Logistics,Re: Delivery window change for Friday,2026-11-02 11:20,m004
+m006,T3,inbound,hello@bluepeak.example,Bluepeak Media,Monthly report format question,2026-11-02 14:30,
+m007,T3,outbound,Bassam Zafar,Bluepeak Media,Re: Monthly report format question,2026-11-02 15:05,m006
+m008,T4,inbound,support@harborfoods.example,Harbor Foods,New starter onboarding checklist,2026-11-02 16:40,
+m009,T5,inbound,client@northwind.example,Northwind Retail,November delivery schedule,2026-11-03 08:55,
+m010,T5,outbound,Bassam Zafar,Northwind Retail,Re: November delivery schedule,2026-11-03 09:10,m009
+m011,T6,inbound,ops@acmelogistics.example,Acme Logistics,Proof of delivery missing for order 4417,2026-11-03 11:00,
+m012,T6,outbound,Lina Ahmed,Acme Logistics,Re: Proof of delivery missing for order 4417,2026-11-03 16:30,m011
+m013,T7,inbound,hello@bluepeak.example,Bluepeak Media,Access to shared dashboard,2026-11-03 13:15,
+m014,T7,outbound,Bassam Zafar,Bluepeak Media,Re: Access to shared dashboard,2026-11-03 13:40,m013
+m015,T8,inbound,support@harborfoods.example,Harbor Foods,Stock count mismatch at depot 2,2026-11-03 15:50,
+m016,T8,outbound,Bassam Zafar,Harbor Foods,Re: Stock count mismatch at depot 2,2026-11-04 09:20,m015
+m017,T9,inbound,client@northwind.example,Northwind Retail,Confirming December order quantities,2026-11-04 09:05,
+m018,T9,outbound,Lina Ahmed,Northwind Retail,Re: Confirming December order quantities,2026-11-04 09:30,m017
+m019,T10,inbound,ops@acmelogistics.example,Acme Logistics,Driver shift cover for Thursday,2026-11-04 12:20,
+m020,T11,inbound,hello@bluepeak.example,Bluepeak Media,Invoice copy request,2026-11-04 17:10,
+m021,T11,outbound,Bassam Zafar,Bluepeak Media,Re: Invoice copy request,2026-11-04 17:55,m020
+m022,T12,inbound,support@harborfoods.example,Harbor Foods,Weekly delivery summary,2026-11-05 10:15,
+m023,T12,outbound,Lina Ahmed,Harbor Foods,Re: Weekly delivery summary,2026-11-05 10:40,m022
+m024,T13,inbound,client@northwind.example,Northwind Retail,Contract renewal dates,2026-11-05 11:45,
+m025,T13,outbound,Bassam Zafar,Northwind Retail,Re: Contract renewal dates,2026-11-05 14:05,m024
+m026,T14,inbound,ops@acmelogistics.example,Acme Logistics,Weekend depot opening hours,2026-11-05 15:00,
+m027,T14,outbound,Bassam Zafar,Acme Logistics,Re: Weekend depot opening hours,2026-11-05 15:25,m026
+m028,T15,outbound,Bassam Zafar,Northwind Retail,October service summary,2026-11-05 16:00,
